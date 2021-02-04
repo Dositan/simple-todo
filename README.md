@@ -1,10 +1,11 @@
 # simple-todo
-A very basic to-do app which is made using Flask library (yeah no react lul)
+A basic to-do application made using Flask with MongoDB
 
-# Want to run this application through your machine? Here are some mandatory things:
-1. A Database (MongoDB more likely). This is needed to store all that to-dos there.
+# Mandatory things to setup:
+1. A MongoDB database. Store the data in your project folder doing `mkdir ./data/db`</br>
+then setting the DB path. Run the database using `mongod --dbpath="./data/db"`.
 2. Package dependencies, paste this line in your terminal: `pip install -r requirements.txt`
-3. At least some basic knowledge of the Flask framework. Or do you just want to grab the program without learning anything?
+3. If everything is OK the final stage will be doing `python app.py` which runs the application in localhost.
 
 # Conclusion
 If you enjoyed this kind of tutor please star the repository, it makes the creator to keep learning the stuff he's working!
